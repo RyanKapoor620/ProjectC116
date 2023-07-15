@@ -1,0 +1,24 @@
+body{
+   
+}
+
+.heading{
+    font-size: 45px;
+    font-family: 'Courgette', cursive;
+    width: 100%;
+    margin-top: 0px;
+}
+
+.btn-primary:hover{
+    background-color: purple;
+}
+canvas{
+    animation-name:shadow;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+    margin-top:50px;
+}
+@keyframes shadow{
+    from{box-shadow: 1px 1px 40px darkblue;}
+    to{box-shadow: 1px 1px 40px black;}
+}
